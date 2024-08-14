@@ -85,13 +85,14 @@ export default function Main() {
 
         <ReCAPTCHA
           size="normal"
-          sitekey="6LcpMFooAAAAAKIxzEockoR_2qNLevhf8sOuHqCS"
+          sitekey="6LcIViYqAAAAAJFW_Ur0S0kibzyHRVBcYBMm80EP"
           onChange={onCaptchaChange}
           ref={recaptcha}
           className="relative"
           style={{ transform: "scale(0.90)" }}
           theme="light"
         />
+        
 
         {uploading ? (
           <Button disabled className="flex gap-1 w-full">
