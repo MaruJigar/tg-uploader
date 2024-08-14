@@ -5,10 +5,10 @@ from pyrogram import Client, idle
 from pyrogram.types import Message
 from flask import Flask, Response, request
 
-API_ID = 13251350
-API_HASH = "API_HASH_HERE"
-BOT_TOKEN = "BOT_TOKEN_HERE"
-CHAT_ID = -100123456789
+API_ID = 25906993
+API_HASH = "210e018f82f7192e00f79148a1432886"
+BOT_TOKEN = "1217776688:AAH10ztV-TxTY91MVzlgTaWZad_IH0om9AI"
+CHAT_ID = -1002249032035
 
 app = Flask(__name__)
 
